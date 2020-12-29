@@ -1,0 +1,63 @@
+## ###\   ###\ #####\  ######\##\  ##\##\###\   ##\ #####\ 
+## ####\ ####\##\\\##\##\\\\\\##\  ##\##\####\  ##\##\\\##\
+## ##\####\##\#######\##\     #######\##\##\##\ ##\#######\
+## ##\\##\\##\##\\\##\##\     ##\\\##\##\##\\##\##\##\\\##\
+## ##\ \\\ ##\##\  ##\\######\##\  ##\##\##\ \####\##\  ##\
+## \\\     \\\\\\  \\\ \\\\\\\\\\  \\\\\\\\\  \\\\\\\\  \\\
+## 
+## Program name: home
+## Created: 12/20/2020 22:57:16
+## 
+## DISCLAIMER: WORKING WITH ROBOTS CAN BE DANGEROUS!
+## When using robots in a real-time interactive environment, please make sure:
+##     - You have been adequately trained to use that particular machine,
+##     - you are in good physical and mental condition,
+##     - you are operating the robot under the utmost security measures,
+##     - you are following the facility's and facility staff's security protocols,
+##     - and the robot has the appropriate guarding in place, including, but not reduced to:
+##         e -stops, physical barriers, light curtains, etc.
+## The Machina software framework and its generated code is provided as is;
+## use at your own risk. This product is not intended for any use that may
+## involve potential risks of death (including lifesaving equipment),
+## personal injury, or severe property or environmental damage.
+## Machina is in a very early stage of development. You are using this software
+## at your own risk, no warranties are provided herewith, and unexpected
+## results / bugs may arise during its use. Always test and simulate your
+## applications thoroughly before running them on a real device.
+## The author/s shall not be liable for any injuries, damages or losses
+## consequence of using this software in any way whatsoever.
+## 
+## 
+## Copyright(c) 2020 Jose Luis Garcia del Castillo y Lopez
+## https://github.com/RobotExMachina
+## 
+## MIT License
+## 
+## Permission is hereby granted, free of charge, to any person obtaining a copy
+## of this software and associated documentation files(the "Software"), to deal
+## in the Software without restriction, including without limitation the rights
+## to use, copy, modify, merge, publish, distribute, sublicense, and / or sell
+## copies of the Software, and to permit persons to whom the Software is
+## furnished to do so, subject to the following conditions:
+## 
+## The above copyright notice and this permission notice shall be included in all
+## copies or substantial portions of the Software.
+## 
+## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+## IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+## FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+## AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+## LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+## SOFTWARE.
+
+
+def home():
+
+  popup("move to home", title="Machina Message", warning=False, error=False)  # [Display message "move to home"]
+  # [Set motion speed to 25 mm/s or deg/s]
+  movej([0,-1.570796,-1.570796,-1.570796,1.570796,0], a=0.523599, v=0.436332, r=0.005)  # [Set joint rotations to [0, -90, -90, -90, 90, 0] deg]
+
+end
+
+home()
