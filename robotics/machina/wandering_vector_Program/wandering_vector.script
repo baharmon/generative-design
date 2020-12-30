@@ -1,0 +1,91 @@
+## ###\   ###\ #####\  ######\##\  ##\##\###\   ##\ #####\ 
+## ####\ ####\##\\\##\##\\\\\\##\  ##\##\####\  ##\##\\\##\
+## ##\####\##\#######\##\     #######\##\##\##\ ##\#######\
+## ##\\##\\##\##\\\##\##\     ##\\\##\##\##\\##\##\##\\\##\
+## ##\ \\\ ##\##\  ##\\######\##\  ##\##\##\ \####\##\  ##\
+## \\\     \\\\\\  \\\ \\\\\\\\\\  \\\\\\\\\  \\\\\\\\  \\\
+## 
+## Program name: wandering_vector
+## Created: 12/29/2020 17:08:17
+## 
+## DISCLAIMER: WORKING WITH ROBOTS CAN BE DANGEROUS!
+## When using robots in a real-time interactive environment, please make sure:
+##     - You have been adequately trained to use that particular machine,
+##     - you are in good physical and mental condition,
+##     - you are operating the robot under the utmost security measures,
+##     - you are following the facility's and facility staff's security protocols,
+##     - and the robot has the appropriate guarding in place, including, but not reduced to:
+##         e -stops, physical barriers, light curtains, etc.
+## The Machina software framework and its generated code is provided as is;
+## use at your own risk. This product is not intended for any use that may
+## involve potential risks of death (including lifesaving equipment),
+## personal injury, or severe property or environmental damage.
+## Machina is in a very early stage of development. You are using this software
+## at your own risk, no warranties are provided herewith, and unexpected
+## results / bugs may arise during its use. Always test and simulate your
+## applications thoroughly before running them on a real device.
+## The author/s shall not be liable for any injuries, damages or losses
+## consequence of using this software in any way whatsoever.
+## 
+## 
+## Copyright(c) 2020 Jose Luis Garcia del Castillo y Lopez
+## https://github.com/RobotExMachina
+## 
+## MIT License
+## 
+## Permission is hereby granted, free of charge, to any person obtaining a copy
+## of this software and associated documentation files(the "Software"), to deal
+## in the Software without restriction, including without limitation the rights
+## to use, copy, modify, merge, publish, distribute, sublicense, and / or sell
+## copies of the Software, and to permit persons to whom the Software is
+## furnished to do so, subject to the following conditions:
+## 
+## The above copyright notice and this permission notice shall be included in all
+## copies or substantial portions of the Software.
+## 
+## THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+## IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+## FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+## AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+## LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+## SOFTWARE.
+
+
+def wandering_vector():
+
+  movej([0,-1.570796,-1.570796,-1.570796,1.570796,0], a=0.523599, v=0.349066, r=0.005)  # [Set joint rotations to [0, -90, -90, -90, 90, 0] deg]
+  # [Set motion speed to 50 mm/s or deg/s]
+  # [Set precision radius to 2 mm]
+  movep(p[0.4,0,-0.05,2.837133,-1.349179,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [400, 0, -50] mm and rotate to [[0.631, -0.776, 0], [-0.776, -0.631, 0], [0, 0, -1]]]
+  movep(p[0.421025,0.016269,-0.05,2.804425,-1.415911,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [421.025, 16.269, -50] mm and rotate to [[0.594, -0.805, 0], [-0.805, -0.594, 0], [0, 0, -1]]]
+  movep(p[0.442722,0.031631,-0.05,2.777325,-1.468356,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [442.722, 31.631, -50] mm and rotate to [[0.563, -0.826, 0], [-0.826, -0.563, 0], [0, 0, -1]]]
+  movep(p[0.464916,0.046267,-0.05,2.754347,-1.511018,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [464.916, 46.267, -50] mm and rotate to [[0.537, -0.843, 0], [-0.843, -0.537, 0], [0, 0, -1]]]
+  movep(p[0.487684,0.059988,-0.05,2.71154,-1.586555,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [487.684, 59.988, -50] mm and rotate to [[0.49, -0.872, 0], [-0.872, -0.49, 0], [0, 0, -1]]]
+  movep(p[0.511372,0.072041,-0.05,2.639056,-1.704403,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [511.372, 72.041, -50] mm and rotate to [[0.411, -0.911, 0], [-0.911, -0.411, 0], [0, 0, -1]]]
+  movep(p[0.536168,0.081589,-0.05,2.534963,-1.855685,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [536.168, 81.589, -50] mm and rotate to [[0.302, -0.953, 0], [-0.953, -0.302, 0], [0, 0, -1]]]
+  movep(p[0.561989,0.087826,-0.05,2.393903,-2.034412,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [561.989, 87.826, -50] mm and rotate to [[0.161, -0.987, 0], [-0.987, -0.161, 0], [0, 0, -1]]]
+  movep(p[0.588461,0.089934,-0.05,-2.218693,2.224187,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [588.461, 89.934, -50] mm and rotate to [[-0.002, -1, 0], [-1, 0.002, 0], [0, 0, -1]]]
+  movep(p[0.614933,0.08778,-0.05,-2.038385,2.390521,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [614.933, 87.78, -50] mm and rotate to [[-0.158, -0.987, 0], [-0.987, 0.158, 0], [0, 0, -1]]]
+  movep(p[0.640771,0.08162,-0.05,-1.856864,2.5341,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [640.771, 81.62, -50] mm and rotate to [[-0.301, -0.954, 0], [-0.954, 0.301, 0], [0, 0, -1]]]
+  movep(p[0.66557,0.072077,-0.05,-1.70541,2.638405,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [665.57, 72.077, -50] mm and rotate to [[-0.411, -0.912, 0], [-0.912, 0.411, 0], [0, 0, -1]]]
+  movep(p[0.689287,0.06008,-0.05,-1.591082,2.708886,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [689.287, 60.08, -50] mm and rotate to [[-0.487, -0.873, 0], [-0.873, 0.487, 0], [0, 0, -1]]]
+  movep(p[0.712063,0.046375,-0.05,-1.505495,2.75737,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [712.063, 46.375, -50] mm and rotate to [[-0.541, -0.841, 0], [-0.841, 0.541, 0], [0, 0, -1]]]
+  movep(p[0.734095,0.031497,-0.05,-1.447347,2.788331,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [734.095, 31.497, -50] mm and rotate to [[-0.576, -0.818, 0], [-0.818, 0.576, 0], [0, 0, -1]]]
+  movep(p[0.75564,0.015921,-0.05,-1.415443,2.804662,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [755.64, 15.921, -50] mm and rotate to [[-0.594, -0.804, 0], [-0.804, 0.594, 0], [0, 0, -1]]]
+  movep(p[0.776949,2.3E-05,-0.05,-1.405135,2.80984,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [776.949, 0.023, -50] mm and rotate to [[-0.6, -0.8, 0], [-0.8, 0.6, 0], [0, 0, -1]]]
+  movep(p[0.798263,-0.015869,-0.05,-1.416368,2.804194,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [798.263, -15.869, -50] mm and rotate to [[-0.593, -0.805, 0], [-0.805, 0.593, 0], [0, 0, -1]]]
+  movep(p[0.819825,-0.031422,-0.05,-1.449368,2.787281,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [819.825, -31.422, -50] mm and rotate to [[-0.574, -0.819, 0], [-0.819, 0.574, 0], [0, 0, -1]]]
+  movep(p[0.841865,-0.046288,-0.05,-1.5038,2.758295,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [841.865, -46.288, -50] mm and rotate to [[-0.542, -0.841, 0], [-0.841, 0.542, 0], [0, 0, -1]]]
+  movep(p[0.864583,-0.060091,-0.05,-1.58257,2.713867,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [864.583, -60.091, -50] mm and rotate to [[-0.492, -0.87, 0], [-0.87, 0.492, 0], [0, 0, -1]]]
+  movep(p[0.888258,-0.072167,-0.05,-1.707086,2.637321,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [888.258, -72.167, -50] mm and rotate to [[-0.409, -0.912, 0], [-0.912, 0.409, 0], [0, 0, -1]]]
+  movep(p[0.913133,-0.081496,-0.05,-1.87726,2.519027,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [913.133, -81.496, -50] mm and rotate to [[-0.286, -0.958, 0], [-0.958, 0.286, 0], [0, 0, -1]]]
+  movep(p[0.939047,-0.087354,-0.05,-2.039089,2.389921,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [939.047, -87.354, -50] mm and rotate to [[-0.157, -0.988, 0], [-0.988, 0.157, 0], [0, 0, -1]]]
+  movep(p[0.965487,-0.09,-0.05,-2.172235,2.269581,0], a=0.03, v=0.05, r=0.002)  # [Transform: move to [965.487, -90, -50] mm and rotate to [[-0.044, -0.999, 0], [-0.999, 0.044, 0], [0, 0, -1]]]
+  sleep(0.5)  # [Wait 500 ms]
+  # [Set motion speed to 50 mm/s or deg/s]
+  movej([0,-1.570796,-1.570796,-1.570796,1.570796,0], a=0.523599, v=0.872665, r=0.002)  # [Set joint rotations to [0, -90, -90, -90, 90, 0] deg]
+
+end
+
+wandering_vector()
