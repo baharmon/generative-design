@@ -12,10 +12,13 @@
 * Ink brush
     * z: 250 mm
     * payload: 27 g
-* Base
+
+## Installation
+* Vention Base
     * z: 240 mm
 
-## Grasshopper
-* Set tool
-* Define planes and transform
-* Define new installation on teach pendant
+## Rhino
+* Model Vention base
+* Model brush end effector
+* Model and 3D print brush holder with magnetic mount
+* Simulate with robots plugin
