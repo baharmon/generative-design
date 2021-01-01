@@ -17,6 +17,11 @@
 * Vention Base
     * z: 240 mm
 
+## Grasshopper
+* Strange attractor drawing
+* Wandering vector drawing
+    * Vary brush height randomly
+
 ## Rhino
 * Model Vention base
 * Model brush end effector
