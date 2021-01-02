@@ -21,6 +21,7 @@
 * Strange attractor drawing
 * Wandering vector drawing
     * Vary brush height randomly
+* Slime mold drawing
 
 ## Rhino
 * Model Vention base
