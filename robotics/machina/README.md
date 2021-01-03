@@ -19,9 +19,10 @@
 
 ## Grasshopper
 * Strange attractor drawing
-* Wandering vector drawing
-    * Vary brush height randomly
+* Wandering vector(s) drawing
 * Slime mold drawing
+    * Points as strokes
+        * For each engage and retract
 
 ## Rhino
 * Model Vention base
