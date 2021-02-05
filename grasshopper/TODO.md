@@ -22,6 +22,7 @@
 * ecological-attractors
 * *noise-forest*
 * *forest-attractor*
+* quadrangle
 * particle-forest
 * recursive-tree
 * *rendered-tree*
@@ -35,11 +36,11 @@
 * parametric-landscape
 * trigonometric-landforms
 * topographic-attractors
-* *noise-landforms*
+* noisescape
 * *fractal-landforms*
-* soundunes
-* soundforest
-* *noisy-agents*
+* sound-dunes + sound-grid
+* sound-forest
+* noise-field
 * terrain-modeling
 * terrain-analysis
 * terrain-grading
@@ -53,7 +54,6 @@
 * paneled-bench
 * trigonometric-bench
 * lungomare-bench
-* *design-matrix*
 * *rendering-with-vray*
 * *waveform-bench*
 * strange-attractor
