@@ -13,12 +13,13 @@
 * parametric-tree
 * linear-array
 * curve-array **UPDATE**
-* trigonometric-array
+* *trigonometric-array*
 * tree-of-trees
 * parametric-grove
-* parametric-forest > ecological-gradient
-* random-forest > random-grove
-* random-forest-2 > random-forest
+* ecological-gradient
+* random-grove
+* forest-gradient
+* random-forest
 * ecological-attractors
 * *noise-forest*
 * *forest-attractor*
@@ -26,7 +27,7 @@
 * particle-forest
 * recursive-tree
 * *rendered-tree*
-* random-grove > rendered-grove
+* rendered-grove
 * random-meadow
 * drifting-meadow
 * noise-forestry
