@@ -5,14 +5,13 @@
 * random-paving
 * parametric-flagstones
 * *paving-attractors*
-* *flow-field*
 * *organic-paving* from slime mold
-* *shape-filling-curve-paving*
+* *space-filling-paving*
 
 ## Planting
 * parametric-tree
 * linear-array
-* curve-array **UPDATE**
+* curve-array
 * *trigonometric-array*
 * tree-of-trees
 * parametric-grove
@@ -31,6 +30,7 @@
 * random-meadow
 * drifting-meadow
 * noise-forestry
+* *space-filling-planting*
 
 ## Terrain
 * parametric-landforms
@@ -55,11 +55,8 @@
 * paneled-bench
 * trigonometric-bench
 * lungomare-bench
-* *rendering-with-vray*
 * *waveform-bench*
 * strange-attractor
-* *cloud-gate*
-* blob-sculpture
 
 ## Landscape
 * noise-garden
@@ -73,7 +70,3 @@
 * *parametric-forestry*
 * *fire-ecology-in-grass*
 * *fire-ecology*
-
-## Updates
-* update names and links on youtube / vimeo
-* update video links on webpages
