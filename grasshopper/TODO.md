@@ -16,9 +16,8 @@
 * *trigonometric-array*
 * tree-of-trees
 * parametric-grove
-* ecological-gradient
-* random-grove
 * forest-gradient
+* random-grove
 * random-forest
 * ecological-attractors
 * *noise-forest*
@@ -30,6 +29,7 @@
 * random-meadow
 * drifting-meadow
 * noise-forestry
+* *recursive-tree-in-python*
 
 ## Terrain
 * parametric-landforms
