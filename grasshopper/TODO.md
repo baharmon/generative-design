@@ -5,14 +5,13 @@
 * random-paving
 * parametric-flagstones
 * *paving-attractors*
-* *flow-field*
 * *organic-paving* from slime mold
-* *shape-filling-curve-paving*
+* *space-filling-paving*
 
 ## Planting
 * parametric-tree
 * linear-array
-* curve-array **UPDATE**
+* curve-array
 * *trigonometric-array*
 * tree-of-trees
 * parametric-grove
@@ -22,6 +21,7 @@
 * ecological-attractors
 * *noise-forest*
 * *forest-attractor*
+* quadrangle
 * particle-forest
 * recursive-tree
 * *rendered-tree*
@@ -29,18 +29,20 @@
 * random-meadow
 * drifting-meadow
 * noise-forestry
+<<<<<<< HEAD
 * *recursive-tree-in-python*
+* *space-filling-planting*
 
 ## Terrain
 * parametric-landforms
 * parametric-landscape
 * trigonometric-landforms
 * topographic-attractors
-* *noise-landforms*
+* noisescape
 * *fractal-landforms*
-* soundunes
-* soundforest
-* *noisy-agents*
+* sound-dunes + sound-grid
+* sound-forest
+* noise-field
 * terrain-modeling
 * terrain-analysis
 * terrain-grading
@@ -54,12 +56,8 @@
 * paneled-bench
 * trigonometric-bench
 * lungomare-bench
-* *design-matrix*
-* *rendering-with-vray*
 * *waveform-bench*
 * strange-attractor
-* *cloud-gate*
-* blob-sculpture
 
 ## Landscape
 * noise-garden
@@ -73,7 +71,3 @@
 * *parametric-forestry*
 * *fire-ecology-in-grass*
 * *fire-ecology*
-
-## Updates
-* update names and links on youtube / vimeo
-* update video links on webpages
