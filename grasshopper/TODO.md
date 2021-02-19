@@ -24,12 +24,11 @@
 * quadrangle
 * particle-forest
 * recursive-tree
-* *rendered-tree*
+* rendered-tree
 * rendered-grove
 * random-meadow
 * drifting-meadow
 * noise-forestry
-<<<<<<< HEAD
 * *recursive-tree-in-python*
 * *space-filling-planting*
 
@@ -62,7 +61,8 @@
 ## Landscape
 * noise-garden
 * *venation-garden*
-* *particle-garden* with agent based flows
+* *space-filling-park*
+* *particle-park* with agent based flows
 * *parametric-topiary* ala les jardins d'etretat  with fuse subd
 
 ## Ecology
