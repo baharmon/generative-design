@@ -57,6 +57,7 @@
 * lungomare-bench
 * *waveform-bench*
 * strange-attractor
+* *voronoi-attractors* in progress
 
 ## Landscape
 * noise-garden
