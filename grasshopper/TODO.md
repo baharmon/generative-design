@@ -7,6 +7,7 @@
 * *paving-attractors*
 * *organic-paving* from slime mold
 * *space-filling-paving*
+* *space-filling-paths*
 
 ## Planting
 * parametric-tree
@@ -57,7 +58,7 @@
 * lungomare-bench
 * *waveform-bench*
 * strange-attractor
-* *voronoi-attractors* in progress
+* *attractors* add Thea plants
 
 ## Landscape
 * noise-garden
