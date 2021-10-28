@@ -17,15 +17,6 @@
 * Vention Base
     * z: 240 mm
 
-## Grasshopper
-* Strange attractor drawing
-* Wandering vector(s) drawing
-* Slime mold drawing
-    * Points as strokes
-        * For each engage and retract
-
-## Rhino
+## TODO
 * Model Vention base
-* Model brush end effector
-* Model and 3D print brush holder with magnetic mount
 * Simulate with robots plugin
