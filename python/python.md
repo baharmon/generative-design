@@ -29,6 +29,7 @@ C:\Users\baharmon\.conda\envs\gh\python.exe
 * conda create --name gh scipy
 * conda activate gh
 * pip install ghhops-server
+* python *.py
 * http://127.0.0.1:5000/function
 
 ## TODO
