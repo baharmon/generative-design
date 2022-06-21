@@ -16,7 +16,7 @@ import seaborn as sns
 sns.set(style = "whitegrid")
 
 # create plot
-axes = plt.subplot(projection='3d')
+ax = plt.subplot(projection='3d')
 
 # set variables
 u = np.arange(0, 10, 0.1)
@@ -29,19 +29,19 @@ f = 0.1
 
 # plot surface
 x, y = np.meshgrid(u, v)
-z = ((a * np.sin(b * x - c) + d) 
-    * np.e**(-f * x) 
-    * (a * np.cos(b * y - c) + d) 
+z = ((a * np.sin(b * x - c) + d)
+    * np.e**(-f * x)
+    * (a * np.cos(b * y - c) + d)
     * np.e**(-f * y))
-surface = axes.plot_surface(x, y, z, cmap='viridis', linewidth=0.25)
+surface = ax.plot_surface(x, y, z, cmap='viridis', linewidth=0.25)
 
 # set axes label
-axes.set_xlabel('x', labelpad=10)
-axes.set_ylabel('y', labelpad=10)
-axes.set_zlabel('z', labelpad=10)
+ax.set_xlabel('x', labelpad=10)
+ax.set_ylabel('y', labelpad=10)
+ax.set_zlabel('z', labelpad=10)
 
 # create legend
-fig = axes.get_figure()
+fig = ax.get_figure()
 fig.colorbar(surface, shrink=0.5, aspect=16)
 
 # save as image

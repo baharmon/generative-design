@@ -16,7 +16,7 @@ import seaborn as sns
 sns.set(style = "whitegrid")
 
 # create plot
-axes = plt.subplot(projection='3d')
+ax = plt.subplot(projection='3d')
 
 # set variables
 u = np.arange(0, 10, 0.1)
@@ -29,19 +29,19 @@ f = 0.1
 
 # plot wireframe
 x, y = np.meshgrid(u, v)
-z = ((a * np.sin(b * x - c) + d) 
-    * np.e**(-f * x) 
-    * (a * np.cos(b * y - c) + d) 
+z = ((a * np.sin(b * x - c) + d)
+    * np.e**(-f * x)
+    * (a * np.cos(b * y - c) + d)
     * np.e**(-f * y))
-wireframe = axes.plot_wireframe(x, y, z, color='indigo', linewidth=1.0)
+wireframe = ax.plot_wireframe(x, y, z, color='indigo', linewidth=1.0)
 
 # set axes label
-axes.set_xlabel('x', labelpad=10)
-axes.set_ylabel('y', labelpad=10)
-axes.set_zlabel('z', labelpad=10)
+ax.set_xlabel('x', labelpad=10)
+ax.set_ylabel('y', labelpad=10)
+ax.set_zlabel('z', labelpad=10)
 
 # create legend
-fig = axes.get_figure()
+fig = ax.get_figure()
 
 # save as image
 fig.set_size_inches(8.5, 8.5)
