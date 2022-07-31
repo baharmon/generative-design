@@ -33,7 +33,7 @@ z = ((a * np.sin(b * x - c) + d)
     * np.e**(-f * x)
     * (a * np.cos(b * y - c) + d)
     * np.e**(-f * y))
-contours = ax.contour(x, y, z, levels=50, linewidths=1.5, cmap='inferno')
+plot = ax.contour(x, y, z, levels=50, linewidths=1.5, cmap='inferno')
 
 # set axes label
 ax.set_xlabel('x', labelpad=10)
@@ -42,7 +42,7 @@ ax.set_zlabel('z', labelpad=10)
 
 # create legend
 fig = ax.get_figure()
-fig.colorbar(contours, shrink=0.5, aspect=16)
+fig.colorbar(plot, shrink=0.5, aspect=16)
 
 # save as image
 fig.set_size_inches(8.5, 8.5)

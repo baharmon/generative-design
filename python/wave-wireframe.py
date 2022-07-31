@@ -33,16 +33,14 @@ z = ((a * np.sin(b * x - c) + d)
     * np.e**(-f * x)
     * (a * np.cos(b * y - c) + d)
     * np.e**(-f * y))
-wireframe = ax.plot_wireframe(x, y, z, color='indigo', linewidth=1.0)
+ax.plot_wireframe(x, y, z, color='indigo', linewidth=1.0)
 
 # set axes label
 ax.set_xlabel('x', labelpad=10)
 ax.set_ylabel('y', labelpad=10)
 ax.set_zlabel('z', labelpad=10)
 
-# create legend
-fig = ax.get_figure()
-
 # save as image
+fig = ax.get_figure()
 fig.set_size_inches(8.5, 8.5)
 fig.savefig('wave-wireframe.png', dpi=300, bbox_inches='tight', pad_inches=0)
