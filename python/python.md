@@ -16,6 +16,10 @@
 ## GRASS Numpy Interface
 * https://grasswiki.osgeo.org/wiki/GRASS_Python_Scripting_Library#Interfacing
 
+## PyGRASS
+* raster2numpy
+* https://training.gismentors.eu/grass-gis-workshop-jena/units/13.html
+
 ## MeanderPy
 * https://github.com/zsylvester/meanderpy
 
