@@ -12,7 +12,7 @@ __version__ = "0.0.1"
 # import libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
-import numpy as np
+from numpy.random import default_rng
 
 # set theme
 sns.set_theme(style="white")
@@ -22,11 +22,11 @@ sns.set(font_scale=0.75)
 ax = plt.subplot()
 
 # generate random array
-width = 8.5
+width = 8.25
 height = 11
 u = int(height * 2)
 v = int(width * 2)
-rng = np.random.default_rng(1234)
+rng = default_rng(1234)
 z = rng.integers(0, 10, (u, v))
 
 
@@ -45,5 +45,5 @@ sns.heatmap(
 # save as image
 fig = ax.get_figure()
 fig.set_size_inches(width, height)
-fig.savefig('random-integer-page.pdf', dpi=300, bbox_inches='tight', pad_inches=0)
+fig.savefig('random-integer-page.pdf', dpi=1600, bbox_inches='tight', pad_inches=0)
 

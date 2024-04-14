@@ -21,10 +21,10 @@ sns.set_theme(style="white")
 ax = plt.subplot()
 
 # generate random matrix
-width = 8.5
+width = 8.25
 height = 11
-u = int(height * 12)
-v = int(width * 12)
+u = int(height * 20)
+v = int(width * 20)
 rng = default_rng(1234)
 z = rng.random((u, v))
 # z = rng.laplace(0, 1,(u, v))
@@ -42,5 +42,5 @@ sns.heatmap(
 # save as image
 fig = ax.get_figure()
 fig.set_size_inches(width, height)
-fig.savefig('random-page.png', dpi=300, bbox_inches='tight', pad_inches=0)
+fig.savefig('random-page-xl.png', dpi=1600, bbox_inches='tight', pad_inches=0)
 

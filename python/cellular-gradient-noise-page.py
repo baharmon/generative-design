@@ -64,7 +64,7 @@ fig = ax.get_figure()
 fig.set_size_inches(8.5, 11)
 fig.savefig(
     'cellular-gradient-noise-page.png',
-    dpi=300,
+    dpi=2400,
     bbox_inches='tight',
     pad_inches=0
     )
